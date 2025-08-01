@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django DB files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# MySQL or other volume data
+data/
+data/mysql/
+data/mysql/db/
+*.pid
+*.sock
+*.err
+*.ibd
+*.frm
+*#*
+
+# Static and media files
+/static/
+media/
+mediafiles/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Git and VCS
+.git/
+.gitignore
+.gitattributes
+
+# Logs
+*.log
+
+# Docker-related
+Dockerfile
+docker-compose.override.yml
+.dockerignore
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+*~lock.*
+
+# Misc
+*.bak
+*.tmp
+npm-debug.log
+yarn-debug.log
+yarn-error.log
